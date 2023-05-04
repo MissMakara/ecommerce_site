@@ -1,0 +1,359 @@
+[
+  {
+    "name": "404",
+    "path": "/404",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/404.vue",
+    "chunkName": "pages/404",
+    "_name": "_a4bce9c2"
+  },
+  {
+    "name": "about-us",
+    "path": "/about-us",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/about-us.vue",
+    "chunkName": "pages/about-us",
+    "_name": "_61862e87"
+  },
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/blog/index.vue",
+    "chunkName": "pages/blog/index",
+    "_name": "_7c9e820e"
+  },
+  {
+    "name": "cart",
+    "path": "/cart",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/cart/index.vue",
+    "chunkName": "pages/cart/index",
+    "_name": "_74e5efe8"
+  },
+  {
+    "name": "coming-soon",
+    "path": "/coming-soon",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/coming-soon.vue",
+    "chunkName": "pages/coming-soon",
+    "_name": "_7a92302e"
+  },
+  {
+    "name": "contact-us",
+    "path": "/contact-us",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/contact-us/index.vue",
+    "chunkName": "pages/contact-us/index",
+    "_name": "_285029d7"
+  },
+  {
+    "name": "electronics",
+    "path": "/electronics",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/electronics.vue",
+    "chunkName": "pages/electronics",
+    "_name": "_78d16e44"
+  },
+  {
+    "name": "faq",
+    "path": "/faq",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/faq.vue",
+    "chunkName": "pages/faq",
+    "_name": "_59922dfd"
+  },
+  {
+    "name": "furniture",
+    "path": "/furniture",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/furniture.vue",
+    "chunkName": "pages/furniture",
+    "_name": "_e74394ce"
+  },
+  {
+    "name": "grocery",
+    "path": "/grocery",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/grocery.vue",
+    "chunkName": "pages/grocery",
+    "_name": "_684398f4"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_8e6ecde0"
+  },
+  {
+    "name": "lookbook",
+    "path": "/lookbook",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/lookbook.vue",
+    "chunkName": "pages/lookbook",
+    "_name": "_741d529e"
+  },
+  {
+    "name": "my-account",
+    "path": "/my-account",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/my-account/index.vue",
+    "chunkName": "pages/my-account/index",
+    "_name": "_25564438"
+  },
+  {
+    "name": "pharmacy",
+    "path": "/pharmacy",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/pharmacy.vue",
+    "chunkName": "pages/pharmacy",
+    "_name": "_02b2b3dc"
+  },
+  {
+    "name": "privacy-policy",
+    "path": "/privacy-policy",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/privacy-policy.vue",
+    "chunkName": "pages/privacy-policy",
+    "_name": "_46886f80"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/register.vue",
+    "chunkName": "pages/register",
+    "_name": "_361d25cc"
+  },
+  {
+    "name": "shop",
+    "path": "/shop",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/shop/index.vue",
+    "chunkName": "pages/shop/index",
+    "_name": "_0351d73c"
+  },
+  {
+    "name": "vendor-dashboard",
+    "path": "/vendor-dashboard",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/vendor-dashboard/index.vue",
+    "chunkName": "pages/vendor-dashboard/index",
+    "_name": "_a2ab360a"
+  },
+  {
+    "name": "blog-blog-2",
+    "path": "/blog/blog-2",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/blog/blog-2.vue",
+    "chunkName": "pages/blog/blog-2",
+    "_name": "_bd873e8a"
+  },
+  {
+    "name": "blog-blog-3",
+    "path": "/blog/blog-3",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/blog/blog-3.vue",
+    "chunkName": "pages/blog/blog-3",
+    "_name": "_bd6b0f88"
+  },
+  {
+    "name": "blog-blog-single-2",
+    "path": "/blog/blog-single-2",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/blog/blog-single-2.vue",
+    "chunkName": "pages/blog/blog-single-2",
+    "_name": "_bc0e1818"
+  },
+  {
+    "name": "cart-cart-2",
+    "path": "/cart/cart-2",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/cart/cart-2.vue",
+    "chunkName": "pages/cart/cart-2",
+    "_name": "_1a68610a"
+  },
+  {
+    "name": "cart-cart-3",
+    "path": "/cart/cart-3",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/cart/cart-3.vue",
+    "chunkName": "pages/cart/cart-3",
+    "_name": "_1a4c3208"
+  },
+  {
+    "name": "cart-cart-4",
+    "path": "/cart/cart-4",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/cart/cart-4.vue",
+    "chunkName": "pages/cart/cart-4",
+    "_name": "_1a300306"
+  },
+  {
+    "name": "cart-empty-cart",
+    "path": "/cart/empty-cart",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/cart/empty-cart.vue",
+    "chunkName": "pages/cart/empty-cart",
+    "_name": "_aae6dc54"
+  },
+  {
+    "name": "contact-us-contact-us-2",
+    "path": "/contact-us/contact-us-2",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/contact-us/contact-us-2.vue",
+    "chunkName": "pages/contact-us/contact-us-2",
+    "_name": "_2075b4db"
+  },
+  {
+    "name": "my-account-account-details",
+    "path": "/my-account/account-details",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/my-account/account-details.vue",
+    "chunkName": "pages/my-account/account-details",
+    "_name": "_0e3b2c88"
+  },
+  {
+    "name": "my-account-account-info-edit",
+    "path": "/my-account/account-info-edit",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/my-account/account-info-edit.vue",
+    "chunkName": "pages/my-account/account-info-edit",
+    "_name": "_4534930f"
+  },
+  {
+    "name": "my-account-addresses",
+    "path": "/my-account/addresses",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/my-account/addresses.vue",
+    "chunkName": "pages/my-account/addresses",
+    "_name": "_37d41808"
+  },
+  {
+    "name": "my-account-checkout-1",
+    "path": "/my-account/checkout-1",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/my-account/checkout-1.vue",
+    "chunkName": "pages/my-account/checkout-1",
+    "_name": "_693ed5f4"
+  },
+  {
+    "name": "my-account-checkout-2",
+    "path": "/my-account/checkout-2",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/my-account/checkout-2.vue",
+    "chunkName": "pages/my-account/checkout-2",
+    "_name": "_694ced75"
+  },
+  {
+    "name": "my-account-compare",
+    "path": "/my-account/compare",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/my-account/compare.vue",
+    "chunkName": "pages/my-account/compare",
+    "_name": "_01ba496a"
+  },
+  {
+    "name": "my-account-downloads",
+    "path": "/my-account/downloads",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/my-account/downloads.vue",
+    "chunkName": "pages/my-account/downloads",
+    "_name": "_484818d1"
+  },
+  {
+    "name": "my-account-order-tracking",
+    "path": "/my-account/order-tracking",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/my-account/order-tracking.vue",
+    "chunkName": "pages/my-account/order-tracking",
+    "_name": "_afb1e040"
+  },
+  {
+    "name": "my-account-orders",
+    "path": "/my-account/orders",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/my-account/orders.vue",
+    "chunkName": "pages/my-account/orders",
+    "_name": "_eca99a22"
+  },
+  {
+    "name": "my-account-wishlist",
+    "path": "/my-account/wishlist",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/my-account/wishlist.vue",
+    "chunkName": "pages/my-account/wishlist",
+    "_name": "_60f63d62"
+  },
+  {
+    "name": "product-product_backup_id",
+    "path": "/product/product_backup_id",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/product/product_backup_id.vue",
+    "chunkName": "pages/product/product_backup_id",
+    "_name": "_1e9f0cef"
+  },
+  {
+    "name": "product-product_detail",
+    "path": "/product/product_detail",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/product/product_detail.vue",
+    "chunkName": "pages/product/product_detail",
+    "_name": "_372765ac"
+  },
+  {
+    "name": "product-product-single-2",
+    "path": "/product/product-single-2",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/product/product-single-2.vue",
+    "chunkName": "pages/product/product-single-2",
+    "_name": "_2b98ad54"
+  },
+  {
+    "name": "shop-shop-2",
+    "path": "/shop/shop-2",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/shop/shop-2.vue",
+    "chunkName": "pages/shop/shop-2",
+    "_name": "_1a7cf53b"
+  },
+  {
+    "name": "shop-shop-3",
+    "path": "/shop/shop-3",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/shop/shop-3.vue",
+    "chunkName": "pages/shop/shop-3",
+    "_name": "_1a8b0cbc"
+  },
+  {
+    "name": "shop-shop-4",
+    "path": "/shop/shop-4",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/shop/shop-4.vue",
+    "chunkName": "pages/shop/shop-4",
+    "_name": "_1a99243d"
+  },
+  {
+    "name": "shop-shop-5",
+    "path": "/shop/shop-5",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/shop/shop-5.vue",
+    "chunkName": "pages/shop/shop-5",
+    "_name": "_1aa73bbe"
+  },
+  {
+    "name": "vendor-dashboard-add-product",
+    "path": "/vendor-dashboard/add-product",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/vendor-dashboard/add-product.vue",
+    "chunkName": "pages/vendor-dashboard/add-product",
+    "_name": "_4a0062ac"
+  },
+  {
+    "name": "vendor-dashboard-order",
+    "path": "/vendor-dashboard/order",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/vendor-dashboard/order.vue",
+    "chunkName": "pages/vendor-dashboard/order",
+    "_name": "_7115b512"
+  },
+  {
+    "name": "vendor-dashboard-product",
+    "path": "/vendor-dashboard/product",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/vendor-dashboard/product.vue",
+    "chunkName": "pages/vendor-dashboard/product",
+    "_name": "_439d5258"
+  },
+  {
+    "name": "vendor-dashboard-profile",
+    "path": "/vendor-dashboard/profile",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/vendor-dashboard/profile.vue",
+    "chunkName": "pages/vendor-dashboard/profile",
+    "_name": "_b1c5bbdc"
+  },
+  {
+    "name": "vendor-dashboard-setting",
+    "path": "/vendor-dashboard/setting",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/vendor-dashboard/setting.vue",
+    "chunkName": "pages/vendor-dashboard/setting",
+    "_name": "_d586098e"
+  },
+  {
+    "name": "blog-slug",
+    "path": "/blog/:slug",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/blog/_slug.vue",
+    "chunkName": "pages/blog/_slug",
+    "_name": "_7ae7e0c6"
+  },
+  {
+    "name": "product-id",
+    "path": "/product/:id?",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/product/_id.vue",
+    "chunkName": "pages/product/_id",
+    "_name": "_5413e2fe"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/bella/projects/themes/Andshop-ecommerce-vue-js-template/andshop-vue/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_21be140e"
+  }
+]
