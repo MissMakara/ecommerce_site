@@ -4,31 +4,11 @@ middleware
 plugins
 store/README.md
 static/README.md
+dist
 
 
 components/blog
 components/instagram
-dist/_nuxt
-dist/blog
-dist/electronics
-dist/faq
-dist/furniture
-dist/grocery
-dist/login
-dist/lookbook
-dist/my-account
-dist/about-us
-dist/pharmacy
-dist/privacy-policy
-dist/register
-dist/vendor-dashboard
-dist/coming-soon
-dist/contact-us
-dist/shop/shop-2
-dist/shop/shop-3
-dist/shop/shop-5
-dist/index(copy).html
-
 
 pages/blog
 pages/cart/cart-2.vue
