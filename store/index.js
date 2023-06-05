@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import products from './module/products'
 import cart from './module/cart'
+import cors from "cors";
 
 Vue.use(Vuex)
 const createStore = () => {

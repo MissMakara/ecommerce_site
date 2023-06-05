@@ -1,13 +1,18 @@
 import products from '../../data/products'
 import destinations from '../../data/destinations'
 
+import axios from 'axios';
+import api from '/api';
+
+// const axios = require('axios');
 //import destinations data
 
-
+// const path ="http://127.0.0.1:5000"
 const state = {
   products: products.data,
   destinations: destinations,
   cart: [],
+  ordersMade:[],
   //create a destinations variable
 
 }
@@ -21,24 +26,10 @@ const getters = {
     return state.products
   },
 
-  // cartTotalAmount: (state) => {
-  //     return state.cart.reduce( (total, product) => {
-  //         return total + (product.price * product.quantity)
-  //       }, 0 )
-  // },
-//   getCartTotals:(state)=>{
+  getallOrders:(state) => {
+    return state.ordersMade
+  },       
 
-            
-//     for (let x in state.cart){
-//         let qtty = state.cart[x].quantity
-//         let price = state.cart[x].price
-//         console.log(price, qtty)
-//         return total += ((price) * (qtty))
-//         console.log("total is", this.totalPrice)
-//     }
-
-//     return this.totalPrice
-// },
   cartTotalAmount: (state) => {
 
     return state.cart.reduce( (total, product) => {
@@ -57,13 +48,34 @@ const actions = {
     return "success"
 
   },
-  
   updateCartQuantity: (context, payload) => {
     context.commit('updateCartQuantity', payload)
   },
   removeCartItem: (context, payload) => {
       context.commit('removeCartItem', payload)
-  }
+  },
+  checkout:(context, payload) => {
+    context.commit('checkout', payload)
+  },
+
+  getOrders({ commit }) {
+    console.log("In getOrders Action")
+    api.getOrders(
+      {
+        headers: 'application/json',
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS"
+      }
+    )
+      .then(response => {
+        console.log("recieved response:", response.data)
+        
+        commit('getOrders', response.data);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  },
 }
 
 // mutations
@@ -127,9 +139,22 @@ const mutations = {
     console.log("Payload", payload)
       const index = state.cart.indexOf(payload)
       state.cart.splice(index, 1)
+  },
+
+  checkout: (state, payload) => {
+    console.log("Payload", payload)
+    state.cart = []
+    console.log("Cart is empty")
+
+  },
+
+  getOrders: (state, payload) => {
+    console.log("Orders Received are:", payload)
+    state.ordersMade.push(payload)
   }
 
 }
+
 export default {
   namespaced: true,
   state,

@@ -228,10 +228,10 @@
                         </ul>
                       </li>-->
                       
-     <!-- STARTS HERE!!>                 
+     <!-- STARTS HERE!!> -->                
                       <li class="has-dropdown">
                         <a href="#">Pages <i class="fa fa-angle-down"></i></a>
-                       Sub Menu 
+                       <!-- Sub Menu  -->
                         <ul class="sub-menu">
                           <li>
                             <nuxt-link to="/faq"
@@ -269,9 +269,9 @@
                         </ul>
                       </li>
                       
--- ENDS HERE>                    
+<!-- ENDS HERE>   -->             
                       
-                      <li>
+                      <!-- <li>
                         <nuxt-link to="/about-us">About Us</nuxt-link>
                       </li> -->
                     </ul>

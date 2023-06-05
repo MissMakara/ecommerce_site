@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "apexcharts": "^3.27.3",
+    "axios": "^1.4.0",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.9.1",
+    "cors": "^2.8.5",
     "lodash": "^4.17.21",
     "nuxt": "^2.15.3",
     "swiper": "^5.4.5",
