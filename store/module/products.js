@@ -69,8 +69,8 @@ const mutations = {
         state.searchedProduct = []
 
         if (payload.length) {
-            state.products.filter((product) => {
-                if (product.title.toLowerCase().includes(payload.toLowerCase())) {
+            state.orders.filter((product) => {
+                if (product.id.toLowerCase().includes(payload.toLowerCase())) {
                     state.searchedProduct.push(product)
                     console.log(state.searchedProduct)
                 }

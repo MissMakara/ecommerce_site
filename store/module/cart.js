@@ -12,7 +12,6 @@ const state = {
   products: products.data,
   destinations: destinations,
   cart: [],
-  ordersMade:[],
   //create a destinations variable
 
 }
@@ -24,11 +23,7 @@ const getters = {
 
   getProducts:(state) => {
     return state.products
-  },
-
-  getallOrders:(state) => {
-    return state.ordersMade
-  },       
+  },      
 
   cartTotalAmount: (state) => {
 
@@ -38,6 +33,8 @@ const getters = {
   },
 
   //get the destinations data
+
+  
 
 }
 // actions
@@ -58,24 +55,7 @@ const actions = {
     context.commit('checkout', payload)
   },
 
-  getOrders({ commit }) {
-    console.log("In getOrders Action")
-    api.getOrders(
-      {
-        headers: 'application/json',
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS"
-      }
-    )
-      .then(response => {
-        console.log("recieved response:", response.data)
-        
-        commit('getOrders', response.data);
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  },
+
 }
 
 // mutations
@@ -148,10 +128,7 @@ const mutations = {
 
   },
 
-  getOrders: (state, payload) => {
-    console.log("Orders Received are:", payload)
-    state.ordersMade.push(payload)
-  }
+
 
 }
 
