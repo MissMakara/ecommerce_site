@@ -11,11 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@main
-      - uses: actions/setup-node@main
+      - name: Checkout repository
+        uses: actions/checkout@main
+
+      - name: Setup node
+        uses: actions/setup-node@main
         with:
           node-version: '16.x'  
 
-      - run: npm install --force
-      - run: npm run build
+      - name: Build
+        run: npm install npm@7.11.2
+      - run: npm run dev
              
