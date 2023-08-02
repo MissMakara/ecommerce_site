@@ -24,11 +24,12 @@ pages/lookbook.vue
 pages/pharmacy.vue
 pages/privacy-policy.vue
 pages/register.vue
-pages/vendor-dashboard
 pages/shop/shop-2.vue
 pages/shop/shop-3.vue
 pages/shop/shop-5.vue
 
 .nuxt
+
+node_modules/*
 
 
