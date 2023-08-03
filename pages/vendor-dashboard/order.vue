@@ -24,7 +24,7 @@
                             <b-navbar-nav>
                                 <b-nav-item to="/vendor-dashboard/"><i class="fas fa-tachometer-alt"></i>Dashboard</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/product"><i class="fas fa-shopping-cart"></i>Products</b-nav-item>
-                                <b-nav-item v-on:click="openOrder()" to="/vendor-dashboard/order"><i class="fas fa-shopping-bag"></i>Orders</b-nav-item>
+                                <b-nav-item to="/vendor-dashboard/order"><i class="fas fa-shopping-bag"></i>Orders</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/profile"><i class="far fa-id-badge"></i>Profile</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/order-details"><i class="fas fa-shopping-bag"></i>Order Details</b-nav-item>
                                 <b-nav-item to="/vendor-dashboard/add-product"><i class="fas fa-cart-plus"></i>Add Product</b-nav-item>
@@ -39,34 +39,37 @@
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="vendor_order_boxed">
                                             <h4>Orders</h4>
-                                            <div class="table-responsive">
+                                            <div>
+                                                <button v-on:click="openOrder()" type="button" class="btn btn-primary">Show Orders</button>
+                                            </div>
+                                                <!-- <div class="table-responsive">
                                                 <table class="table pending_table">
                                                     <thead class="thead-light">
                                                         <tr>
-                                                        <th scope="col">Order Id</th>
+                                                        <th scope="col">Order Id</th> -->
                                                         <!-- <th scope="col">Product ID</th> -->
                                                         <!-- <th scope="col">Quantity</th> -->
-                                                        <th scope="col">Destination</th>
+                                                        <!-- <th scope="col">Destination</th>
                                                         <th scope="col">Status</th>
                                                         <th scope="col">Amount</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody v-for="orders in this.orderdetails" :key="orders.id">
                                                        
-                                                        <tr v-for="item in orders" :key="item.id">
+                                                        <tr v-for="item in orders" :key="item.id"> -->
                                                              <!-- {{ item}} -->
 
-                                                            <td>
-                                                                <b-navbar-nav> 
+                                                            <!-- <td>
+                                                                <b-navbar-nav>  -->
                                                                     <!-- <b-nav-item onclick="openOrder()" to="#"> -->
-                                                                    <b-nav-item v-on:click="openOrder()">
+                                                                    <!-- <b-nav-item v-on:click="openOrder()">
                                                                         {{ item.order_id }}
                                                                     </b-nav-item>
                                                                 </b-navbar-nav>
-                                                            </td>
+                                                            </td> -->
                                                             <!-- <td>{{ item.product_id }}</td> -->
                                                             <!-- <td>{{ item.product_quantity }}</td> -->
-                                                            <td>{{ item.destination_details + " " + item.destination_name }}</td>
+                                                            <!-- <td>{{ item.destination_details + " " + item.destination_name }}</td>
                                                             <td>{{ item.status }}</td>
                                                             <td>{{ item.total }}</td>
                                                         
@@ -75,7 +78,7 @@
                                                     </tbody>
                                                 </table>
                                  
-                                            </div>
+                                            </div> -->
                                             <div>
                                                 <vue-good-table
                                                         title="Dynamic Table"
@@ -220,13 +223,14 @@ export default {
         
 
     },
-    mounted() {
+    async mounted() {
         // For scroll page top for every Route 
         window.scrollTo(0, 0)
                 
 
 
         //receive orders
+        await this.orderdetails
         console.log("received orders on mount:", this.orderdetails)
         console.log("mounted property calling openOrders...")
         this.openOrder()
@@ -260,10 +264,7 @@ export default {
                         amount: item[index].total})
 
                 }
-
                 // assign them into a dictionary for display
-                
-                
                 
             }
             // display the final rows

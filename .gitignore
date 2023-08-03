@@ -3,10 +3,6 @@ store/README.md
 static/README.md
 dist
 
-
-components/blog
-components/instagram
-
 pages/blog
 pages/cart/cart-2.vue
 pages/cart/cart-3.vue
@@ -30,6 +26,5 @@ pages/shop/shop-5.vue
 
 .nuxt
 
-node_modules/*
 
 
